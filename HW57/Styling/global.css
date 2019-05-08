@@ -1,0 +1,59 @@
+.nav1 a {
+    font-size: 2.5rem;
+    text-align: end;
+    padding: .5rem;
+    color: black;
+}
+
+.socialmedia a {
+    color: black;
+    padding: .8rem;
+}
+
+.nav1 .face:hover {
+    transition: .3s ease-in-out;
+    color: blue;
+}
+
+.nav1 .yout:hover {
+    transition: .3s ease-in-out;
+    color: red;
+}
+
+.nav1 .insta:hover {
+    transition: .3s ease-in-out;
+    color: yellow;
+}
+
+.nav1 .scaled {
+    transform: scaleX(0.6);
+    background-color: pink;
+}
+
+.socialmedia i:hover {
+    transform: rotate(180deg);
+}
+
+@media(min-width: 880px) {
+    .nav1 {
+        display: none;
+    }
+}
+
+@media (min-width:880px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width:881px) {
+    .socialmedia {
+        display: none;
+    }
+}
+
+@media(max-width:881px) {
+    .desktop {
+        display: none;
+    }
+}
